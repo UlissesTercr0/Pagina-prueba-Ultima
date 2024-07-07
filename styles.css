@@ -1,0 +1,154 @@
+
+
+nav {
+    background: #1D1D11;
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-around ;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.Etiquetas {
+    color: #fff;
+    background: grey;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+footer {
+    background: #1D1D11;
+    padding: 20px 0px;
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 4px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contenido {
+    margin-bottom: 100px;
+    margin-top: 10px;
+}
+
+
+.Etiquetas:hover {
+    background: #fff;
+    color: #1D1D11;
+
+}
+
+.Etiquetas:focus {
+    background: red; 
+}
+
+
+.Menu {
+    display: none;
+}
+.Contenedor{
+    margin: 20px auto;
+    width:99%;
+    display: flex;
+    padding:  10px auto;
+    flex-wrap: wrap;
+
+
+}
+
+
+
+
+.texto-centrado{
+text-align: center;
+
+
+}
+.relleno{
+    font-size: 50px;
+    color: aqua;
+}
+.columna{
+    background-color: #97978d;
+   
+    border: 1px #333 solid ;
+    border-radius: 4px;
+    margin: 20px auto;
+    padding: 10px 50px;
+    box-shadow: 10px, 10px, 5px color #913535;
+   
+    box-sizing: border-box;
+    width: auto;
+
+
+}
+.btn-vermas{
+    background: salmon;
+    padding: 8px 15px;
+    border-radius: 4px;
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.anton-sc-regular {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+hr{
+    margin: 15px 0;
+}
+@media (max-width: 765px) {
+    nav {
+        
+        flex-direction: column;
+
+    }
+
+    .Etiquetas {
+        margin: 10px 20px;
+    }
+
+    .Menu {
+        margin-right: 90%;
+        background: gray;
+        display: flex ;
+        padding: 5px ;
+        border-radius: 5px;
+
+        
+    }
+
+    .desaparece {
+        display: none;
+    }
+
+    .Contenedor{
+        margin: 0 auto;
+        width: 90%;
+        display:flex;
+        flex-wrap: wrap;
+        
+        
+    }
+    .columna{
+        width: 90%;
+        margin: 20px auto;
+       
+
+
+
+    }
+
+ 
+
+
+}
+
